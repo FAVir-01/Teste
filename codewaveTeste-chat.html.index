@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Widget</title>
+    <!-- Widget Configuration -->
+    <script>
+        window.ChatWidgetConfig = {
+            webhook: {
+                url: '<Seu webhook>',
+                route: 'general'
+            },
+            branding: {
+                logo: 'https://avatars.githubusercontent.com/u/57262511?v=4',
+                name: 'Rebecca',
+                welcomeText: 'Olá 👋, como podemos ajudar?',
+                responseTimeText: 'Normalmente respondemos imediatamente'
+            },
+            style: {
+                primaryColor: '#854fff',
+                secondaryColor: '#6b3fd4',
+                position: 'right',
+                backgroundColor: '#ffffff',
+                fontColor: '#333333'
+            },
+            baserow: {
+                apiUrl: 'https://api.baserow.io/api/database/rows/table/465434/?user_field_names=true',
+                token: 'cZYsQsMPUztPddmUPEGCCJmFmIOkdmhj'
+            }
+        };
+    </script>
+</head>
+<body>
+    <!-- Widget Script -->
+    <script src="https://favir-01.github.io/Teste/codewaveTeste-chat.js"></script>
+
+
+</body>
+</html>
